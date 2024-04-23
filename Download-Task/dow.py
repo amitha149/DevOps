@@ -5,10 +5,10 @@ import os
 app = Flask(__name__)
 
 # AWS S3 configuration
-S3_BUCKET_NAME = 'pinkbucket1'
-S3_ACCESS_KEY = 'AKIAW3MEFWHAIGDXRIHU'
-S3_SECRET_KEY = 'p/ZnRhlfMXj3cxB9cg/9yHueY5p5iqFip38VSMyT'
-S3_REGION = 'us-east-1'
+S3_BUCKET_NAME = 'your-bucket-name'
+S3_ACCESS_KEY = 'your-access-key-id'
+S3_SECRET_KEY = 'your-secret-key-id'
+S3_REGION = 'your-aws-region'
 
 @app.route('/')
 def index():
